@@ -1,0 +1,307 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+img {
+    max-width: 100%;
+    
+  }
+  
+  img,
+  svg {
+    vertical-align: middle;
+    border-style: none;
+  }
+
+.logo{
+    padding: 0;
+    padding-left: 1rem;
+    margin: 0 auto;
+   
+}
+
+.logo:hover{
+    opacity: 0.60;
+}
+
+header{
+    background: black;
+    text-transform: uppercase;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+
+}
+
+.p_item{
+    padding-right: 1rem;
+    font-weight: 600;   
+}
+
+.m_item{
+    margin-right: 1.5rem;
+}
+
+.f_item{
+    font-size: 13px;
+    font-weight: 600;
+    padding-left: 2rem;
+}
+
+.h_item:hover{
+    opacity: 0.6;
+}
+
+.m_item:hover{
+    opacity: 0.6;
+}
+
+.hamburguer:hover{
+    opacity: 0.60; 
+}
+
+.carouselImg{
+    
+    width: 100%;
+    
+}
+  
+ /* shop section */
+
+ a{
+     text-decoration: none;
+ }
+
+ .section_padding{
+     padding: 4rem 0;
+ }
+
+ .shop_section h.center{
+     margin-bottom: 1.5rem;
+ }
+
+ .h_container .h_center{
+     -webkit-box-align: center;
+ }
+
+.h_container{
+    display: flex;
+    justify-content: center;
+}
+
+.h_container h2{
+    position: relative;
+    font-weight: bold;
+}
+
+.shop_section .box{
+    background-color: #faf9fa;
+    position: relative;
+    padding: 10px 15px;
+    margin-top: 25px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.shop_section .box a{
+    color: black;
+}
+
+.shop_section .box .img_box{
+    display: flex;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 1rem 2rem;
+    height: 245px;
+}
+
+.shop_section .box .img_box img{
+    max-width: 100%;
+    max-height: 175px;
+}
+
+.shop_section .box .detail_box{
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+
+.shop_section .box .detail_box h6 span{
+    color: #3b4a6b;
+    font-weight: 600;
+}
+
+.shop_section .box .new{
+    padding: 0.5rem 1rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #f0d43a;
+    color: #ffffff;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    font-size: 15px;
+}
+
+.shop_section .btn_box{
+    display: flex;
+    justify-content: center;
+    margin-top: 2.5rem;
+}
+
+.shop_section .btn_box a{
+    display: inline-block;
+    padding: 10px 50px;
+    background-color:#f0d43a;
+    color: white;
+    font-weight: 600;
+    border-radius: 5px;
+    border: 1px solid #f0d43a;
+    
+}
+
+/* About section */
+
+.about_section{
+    background-color: #3b4a6b;
+    color: white;
+}
+
+.about_section .row{
+    align-items: center;
+}
+
+.about_section .img_box{
+    position: relative;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+
+.about_section .img_box img{
+    width: 100%;
+    max-width: 375px;
+}
+
+.about_section .detail_box p{
+    margin-top: 3rem;
+    font-weight: 600;
+}
+
+.about_section .detail_box a{
+    display: flex;
+    justify-content: center;   
+    padding: 10px 45px;
+    background-color:#f0d43a;
+    color: white;
+    font-weight: 600;
+    border-radius: 5px;
+    border: 1px solid #f0d43a;
+    margin-top: 5rem;
+     
+}
+
+/* Banner section */
+
+.b_section .b_padding{
+    padding-top: 2rem;
+}
+
+.b_section .bg_section{
+    display: flex;
+    justify-content: center;
+    background-image:url(/img/auri.jpg);
+    max-width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+
+.b_section .h_padding{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.b_section .bg_section h2{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+  /* Footer */
+
+  .footerStyle{
+    padding:3rem 4rem;
+    background-color: black;
+    
+}
+
+.containerFooter{
+    width: 100%;
+    max-width: 100%;
+   
+}
+
+.footerSm{
+    color: #70ffff
+}
+
+.rowFooter{
+    display: flex;
+    justify-content:center;
+    align-content: center;
+    text-align: center;
+   
+    
+}
+
+.rowFooter a{
+    color: #333333;
+    text-transform: uppercase;
+    
+}
+
+.rowFooter a i{
+    font-size: 1rem;
+    margin: 0 2rem;
+    font-size: 1.2rem;
+}
+
+.parrafoFooter{
+    text-transform: uppercase;
+    opacity: 0.7;
+}
+
+.rowFooter a:hover{
+    color: whitesmoke ;
+    opacity: 0.5;
+}
+
+.bottomFooter{
+    padding: 1rem 0;
+}
+
+.rowCopy{
+    text-align: center;
+    color: #212121;
+}
+
+.rowCopy a{
+    color: #70ffff
+}
+
+.rowCopy a:hover{
+    opacity: 0.5;
+}
